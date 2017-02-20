@@ -9,9 +9,13 @@ header .center {
 }
 
 .gallery {
-  background: url("../img/gallery.jpeg");
+  background: url("../img/gallery.png");
+  color: #222222;
 }
 
+.highlight {
+  color: #266A2E;
+}
 .gallery-list {
    text-align: center;
    width: 100%;
