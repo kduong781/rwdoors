@@ -6,4 +6,4 @@ var app = express();
 
 app
   .use(express.static(staticDir))
-  .listen(2000);
+  .listen(3000);
