@@ -405,6 +405,10 @@ footer ul li a:active,
 footer ul li a.active {
   text-decoration: none;
 }
+
+#about {
+  color: black;
+}
 .bg-primary {
   background: #fdcc52;
   background: -webkit-linear-gradient(#fdcc52, #fdc539);
