@@ -68,7 +68,7 @@
     max-height: 200px;
     max-width: 100%;
   }
-  
+
 /* Generic Button Styles */
 
   .button{
@@ -128,7 +128,7 @@ center{
 }
 input {
     position: relative;
-    z-index: 9999;
+    z-index: 0;
 }
 
 header {

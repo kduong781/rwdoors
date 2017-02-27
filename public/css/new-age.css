@@ -159,6 +159,10 @@ header {
     background: url("../img/door.jpeg");
 }
 
+#about {
+  background-color:  #fdcc52;
+}
+
 header .header-content {
   text-align: center;
   padding: 150px 0 50px;
