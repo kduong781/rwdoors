@@ -151,10 +151,18 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background: url("../img/door.jpeg");
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
+
+.home {
+    background: url("../img/door.jpeg");
+}
+
+#about {
+  background-image:url(../img/about_background.jpg);
+}
+
 header .header-content {
   text-align: center;
   padding: 150px 0 50px;
@@ -298,7 +306,7 @@ section.cta {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/bg-cta.jpg');
+  background-image: url('../img/construction.jpg');
   padding: 250px 0;
 }
 section.cta .cta-content {
@@ -325,6 +333,19 @@ section.cta .overlay {
   top: 0;
   left: 0;
 }
+
+.black {
+  color: black;
+}
+
+.list-social {
+  padding: 0em 0em 1em 0em;
+}
+
+.list-social li {
+    padding: 0em 2em 0em 2em;
+}
+
 section.contact {
   text-align: center;
 }
@@ -387,6 +408,10 @@ footer ul li a:focus,
 footer ul li a:active,
 footer ul li a.active {
   text-decoration: none;
+}
+
+#about {
+  color: white;
 }
 .bg-primary {
   background: #fdcc52;
