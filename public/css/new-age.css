@@ -160,7 +160,8 @@ header {
 }
 
 #about {
-  background-color:  #fdcc52;
+
+  background-image:url(../img/about_background.jpg);
 }
 
 header .header-content {
@@ -411,7 +412,11 @@ footer ul li a.active {
 }
 
 #about {
+<<<<<<< HEAD
   color: black;
+=======
+  color: white;
+>>>>>>> origin/about
 }
 .bg-primary {
   background: #fdcc52;
