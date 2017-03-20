@@ -160,7 +160,13 @@ header {
 }
 
 #about {
-  background-image:url(../img/about_background.jpg);
+  background-image:url(../img/about_background2.jpg);
+	
+    background-position: 50% 0%;
+	background-repeat:no-repeat;
+	color:white;
+	font-size:18px;
+	font:bold;
 }
 
 header .header-content {
@@ -410,9 +416,7 @@ footer ul li a.active {
   text-decoration: none;
 }
 
-#about {
-  color: white;
-}
+
 .bg-primary {
   background: #fdcc52;
   background: -webkit-linear-gradient(#fdcc52, #fdc539);
